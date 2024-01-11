@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/17 20:16:11 by hassaleh          #+#    #+#             */
-/*   Updated: 2024/01/07 21:55:25 by hassaleh         ###   ########.fr       */
+/*   Updated: 2024/01/07 22:04:52 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,36 +56,3 @@ int	ft_printf(const char *c, ...)
 	va_end(arg);
 	return (count);
 }
-
-// int main()
-// {
-// 	int a;
-
-// 	// ft_printf ("(d) %%% d ---> ", a);
-// 	// printf ("% d\n", a);
-
-// 	// // ft_printf ("(i) %i ---> ", NULL);
-// 	// // printf ("%i\n", NULL);
-
-// 	// ft_printf ("(x) %x ---> ", '\0');
-// 	// printf ("%x\n", '\0');
-
-// 	// ft_printf ("(X) %X ---> ", '\0');
-// 	// printf ("%X\n", '\0');
-
-// 	// ft_printf ("(s) %s ---> ", "\0a");
-// 	// printf ("%s\n", "\0");
-
-// 	// ft_printf ("(c) %c ---> ", '\0');
-// 	// printf ("%c\n", '\0');
-
-// 	// ft_printf ("(u) %u ---> ", '\0');
-// 	// printf ("%u\n", '\0');
-
-// 	// ft_printf ("(p) %p ---> ", &a);
-// 	// printf ("%p\n", &a);
-
-// 	// ft_printf ("() %% ---> ");
-// 	// printf ("%%");
-// 	return(a);
-// }
